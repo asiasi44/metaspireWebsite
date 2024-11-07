@@ -1,6 +1,5 @@
 //@ts-nocheck
 import Image from "next/image";
-import hero from "./hero.png"
 
 export default function Home() {
   return (
@@ -8,7 +7,7 @@ export default function Home() {
       <Image
         id="homeImage"
         className=""
-        src={hero}
+        src="/hero.png"
         width={1400}
         height={100}
         alt="Picture of the author"
