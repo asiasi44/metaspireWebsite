@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <section
-      className="w-full h-[16rem] flex justify-around items-center"
+      className="w-full h-[16rem] flex justify-around items-center responsive-show responsive-items-in-center"
       id="footer"
     >
       <div className="flex gap-8">
-        <div>Contact Us</div>
+        <div className="responsive-hidden">Contact Us</div>
         <div className="flex flex-col gap-4 ">
           <div className="flex gap-4">
             <div>email</div>
@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex gap-8">
-        <div>Follow Us</div>
+        <div className="responsive-hidden">Follow Us</div>
         <div className="flex flex-col gap-4">
           <a
             className="underline"

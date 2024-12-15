@@ -24,7 +24,7 @@ export default function Navigation() {
             className="absolute rounded-3xl z-[-1] inset-0 bg-gradient-to-r from-[#7415F2] via-[#4242C6] to-[#0C5FA0]"
             id="button-glow"
           ></div>
-          <div className="p-4 rounded-3xl bg-white">Work with Us</div>
+          <div className="p-4 rounded-3xl bg-white responsive-hidden">Work with Us</div>
         </a>
       </div>
       <div className="z-[2] pl-24">Metaspire solutions</div>
